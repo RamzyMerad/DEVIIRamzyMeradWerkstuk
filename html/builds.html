@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teamfight Tactics.RM</title>
+    <link rel="stylesheet" href="../css/master.css">
+
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.8.2/firebase-firestore.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+
+<body>
+    <header>
+        <nav>
+
+            <a href="../index.html">Home</a>
+            <a href="summoners.html">Summoners</a>
+            <img src="../assets/Logo_TeamfightTactics.png" alt="logo">
+            <a href="builds.html">Builds</a>
+            <a href="class.html">Classements</a>
+
+        </nav>
+
+    </header>
+    <div class="box">
+
+        <div class="traits">
+            <h2>Traits</h2>
+
+        </div>
+        <div class="builder">
+
+            <div class="namebuilder">
+                <input class="buildname" type="text" placeholder="Name build.."></input>
+                <button class="savebutton" type="submit" value="Add build">Save</button>
+            </div>
+
+            <div class="buildcases">
+                <div id="div1"></div>
+                <div id="div2"></div>
+                <div id="div3"></div>
+                <div id="div4"></div>
+                <div id="div5"></div>
+                <div id="div6"></div>
+                <div id="div7"></div>
+                <div id="div8"></div>
+                <div id="div9"></div>
+                <div id="div10"></div>
+
+            </div>
+
+            <div class="cost">
+                <h4>cost:</h4> <img src="../assets/Gold.svg" alt="goldcoins">
+            </div>
+        </div>
+
+        <div class="savedbuilds" id="savebuilds">
+            <h2>Saved builds:</h2>
+            <h3>Marwane OP Builds!</h3>
+        </div>
+    </div>
+
+
+
+    </div>
+
+
+    <div class="championslayout">
+        <h2>Choose your champion</h2>
+        <div class="championsbox">
+            <div class="row1">
+                <div class="title">
+                    <h3>cost: 1</h3>
+                    <img src="../assets/Gold.svg" alt="">
+                </div>
+                <div class="imgchampions">
+                    <img src="../assets/dragon/champions/caitlyn.png" alt="" id="caitlyn">
+                    <img src="../assets/dragon/champions/fiora.png" alt="" id="fiora">
+                    <img src="../assets/dragon/champions/graves.png" alt="" id="graves">
+                    <img src="../assets/dragon/champions/jarvaniv.png" alt="" id="jarvaniv">
+                    <img src="../assets/dragon/champions/khazix.png" alt="" id="khazix">
+                    <img src="../assets/dragon/champions/leona.png" alt="" id="leona">
+                    <img src="../assets/dragon/champions/malphite.png" alt="" id="malphite">
+                    <img src=" ../assets/dragon/champions/poppy.png" alt="" id="poppy">
+                    <img src="../assets/dragon/champions/twistedfate.png" alt="" id="twistedfate">
+                    <img src="../assets/dragon/champions/xayah.png" alt="" id="xayah">
+                    <img src="../assets/dragon/champions/ziggs.png" alt="" id="ziggs">
+                    <img src="../assets/dragon/champions/zoe.png" alt="" id="zoe">
+                </div>
+
+
+            </div>
+            <div class="row2">
+                <div class="title">
+                    <h3>cost: 2</h3>
+                    <img src="../assets/Gold.svg" alt="">
+                </div>
+                <div class="imgchampions">
+                    <img src="../assets/dragon/champions/ahri.png" alt="" id="ahri">
+                    <img src="../assets/dragon/champions/annie.png" alt="" id="annie">
+                    <img src="../assets/dragon/champions/blitzcrank.png" alt="" id="blitzcrank">
+                    <img src="../assets/dragon/champions/darius.png" alt="" id="darius">
+                    <img src="../assets/dragon/champions/kaisa.png" alt="" id="kaisa">
+                    <img src="../assets/dragon/champions/lucian.png" alt="" id="lucian">
+                    <img src="../assets/dragon/champions/rakan.png" alt="" id="rakan">
+                    <img src="../assets/dragon/champions/shen.png" alt="" id="shen">
+                    <img src="../assets/dragon/champions/sona.png" alt="" id="sona">
+                    <img src="../assets/dragon/champions/garen.png" alt="" id="garen">
+                    <img src="../assets/dragon/champions/xinzhao.png" alt="" id="xinzhao">
+                    <img src="../assets/dragon/champions/yasuo.png" alt="" id="yasou">
+                </div>
+            </div>
+            <div class="row3">
+                <div class="title">
+                    <h3>cost:3</h3>
+                    <img src="../assets/Gold.svg" alt="">
+                </div>
+                <div class="imgchampions">
+                    <img src="../assets/dragon/champions/ashe.png" alt="" id="ashe">
+                    <img src="../assets/dragon/champions/ezreal.png" alt="" id="ezreal">
+                    <img src="../assets/dragon/champions/jayce.png" alt="" id=" jayce">
+                    <img src="../assets/dragon/champions/karma.png" alt="" id="karma">
+                    <img src="../assets/dragon/champions/kassadin.png" alt="" id="kassadin">
+                    <img src="../assets/dragon/champions/lux.png" alt="" id="lux">
+                    <img src="../assets/dragon/champions/masteryi.png" alt="" id="masteryi">
+                    <img src="../assets/dragon/champions/neeko.png" alt="" id="neeko">
+                    <img src="../assets/dragon/champions/rumble.png" alt="" id="rumble">
+                    <img src="../assets/dragon/champions/shaco.png" alt="" id="shaco">
+                    <img src="../assets/dragon/champions/syndra.png" alt="" id="syndra">
+                    <img src="../assets/dragon/champions/vi.png" alt="" id="vi">
+                </div>
+            </div>
+            <div class="row4">
+                <div class="title">
+                    <h3>cost: 4</h3>
+                    <img src="../assets/Gold.svg" alt="">
+                </div>
+                <div class="imgchampions">
+                    <img src="../assets/dragon/champions/chogath.png" alt="" id="chogath">
+                    <img src="../assets/dragon/champions/fizz.png" alt="" id="fizz">
+                    <img src="../assets/dragon/champions/irelia.png" alt="" id="irelia">
+                    <img src="../assets/dragon/champions/jhin.png" alt="" id="jhin">
+                    <img src="../assets/dragon/champions/jinx.png" alt="" id="jinx">
+                    <img src="../assets/dragon/champions/kayle.png" alt="" id="kayle">
+                    <img src="../assets/dragon/champions/soraka.png" alt="" id="soraka">
+                    <img src="../assets/dragon/champions/velkoz.png" alt="" id="velkoz">
+                    <img src="../assets/dragon/champions/wukong.png" alt="" id="wukong">
+                </div>
+            </div>
+            <div class="row5">
+                <div class="title">
+                    <h3>cost: 5</h3>
+                    <img src="../assets/Gold.svg" alt="">
+                </div>
+                <div class="imgchampions">
+                    <img src="../assets/dragon/champions/aurelionsol.png" alt="" id="aurelionsol">
+                    <img src="../assets/dragon/champions/ekko.png" alt="" id="ekko">
+                    <img src="../assets/dragon/champions/gangplank.png" alt="" id="gangplank">
+                    <img src="../assets/dragon/champions/lulu.png" alt="" id="lulu">
+                    <img src="../assets/dragon/champions/missfortune.png" alt="" id="missfortune">
+                    <img src="../assets/dragon/champions/thresh.png" alt="" id="thresh">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="../js/scriptbuild.js" type="module"></script>
+
+</html>
