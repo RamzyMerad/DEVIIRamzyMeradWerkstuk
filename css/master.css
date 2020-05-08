@@ -1,0 +1,29 @@
+@import url("fonts.css");
+@import url("home.css");
+@import url("nav.css");
+@import url("profil.css");
+@import url("summary.css");
+@import url("rank.css");
+@import url("builds.css");
+@import url("championsbox.css");
+@import url("class.css");
+
+:root {
+    --darkblue: #101124;
+    --gold: #D8B38C;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #13152E;
+    overflow-x: hidden;
+}
+
+.container {
+    margin: 15px 80px;
+
+}

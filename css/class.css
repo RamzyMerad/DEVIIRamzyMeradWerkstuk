@@ -1,0 +1,88 @@
+.classements {
+    height: 100vh;
+    margin: 35px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+
+.classdescprit {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.class_info h2 {
+    margin: 10px 100px 5px 100px;
+}
+
+.class_info {
+    width: 100%;
+}
+
+.casegold {
+    background-color: var(--gold);
+}
+
+.casewhite {
+    border: 3px solid var(--gold);
+}
+
+.classplayer {
+    display: flex;
+    width: 90.6%;
+    flex-direction: row;
+    padding: 10px 5px;
+    justify-content: left;
+    border: 2px solid var(--gold);
+}
+
+.place {
+    margin: 15px 100px;
+    display: table-cell;
+    text-align: center;
+
+}
+
+.playername {
+    width: 375px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.playername img {
+    width: 50px;
+    border-radius: 100%;
+}
+
+.playername h3 {
+    margin-top: 15px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.tier {
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.win {
+    width: 250px;
+    padding: 15px 0px;
+    text-align: center;
+}
+
+.total {
+    text-align: center;
+    padding: 15px 0px;
+    width: 250px;
+}

@@ -1,0 +1,18 @@
+.rank {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rank h2 {
+    margin: 10px;
+    border: 1px solid var(--gold);
+    border-radius: 5px;
+    padding: 10px 50px;
+}
+
+.rank img {
+    width: 300px;
+}

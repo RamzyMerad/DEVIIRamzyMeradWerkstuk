@@ -1,0 +1,118 @@
+.summary {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+.summary h1 {
+    color: white;
+    margin-bottom: 15px;
+    margin-left: 20PX;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+}
+
+.summaryhistory {
+
+    height: 100%;
+    margin-right: 50px;
+    border: 2px solid var(--gold);
+    background: none;
+}
+
+.rank {
+    width: 30%;
+    height: 30vw;
+    border: 2px solid var(--gold);
+    background: none;
+}
+
+.minipp {
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    background: url("../assets/pp.png");
+    background-size: cover;
+    border: 2px solid #D8B38C;
+    margin-left: 50px;
+
+}
+
+.match {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    align-items: center;
+
+}
+
+.match_info {
+    margin: 0px 50px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 10px;
+}
+
+.match_info h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 10px;
+    width: 20px;
+}
+
+.matchstats {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 20px;
+}
+
+.matchstars {
+    margin: 2px 7px;
+}
+
+.matchstars img {
+    width: 15px;
+    height: 15px;
+    margin: 0px 1px;
+    align-items: center;
+}
+
+.matchheros {
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.matchheros img {
+
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border: 2px solid var(--gold);
+}
+
+#first_place {
+    color: yellow;
+}
+
+#second_place {
+    color: silver;
+}
+
+#third_place {
+    color: brown;
+}
+
+#placement {
+    color: white;
+}

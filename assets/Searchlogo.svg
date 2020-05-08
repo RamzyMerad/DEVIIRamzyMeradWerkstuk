@@ -1,0 +1,29 @@
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    viewBox="0 0 301.73 301.73">
+    <defs>
+        <style>
+            .cls-1 {
+                fill: none;
+            }
+
+            .cls-2 {
+                clip-path: url(#clip-path);
+            }
+
+            .cls-3 {
+                fill: #d8b38c;
+            }
+        </style>
+        <clipPath id="clip-path">
+            <rect class="cls-1" width="301.73" height="301.73" />
+        </clipPath>
+    </defs>
+    <title>Searchlogo</title>
+    <g class="cls-2">
+        <g id="Search">
+            <rect id="Rectangle_693" data-name="Rectangle 693" class="cls-1" width="301.73" height="301.73" />
+            <path id="Tracé_208" data-name="Tracé 208" class="cls-3"
+                d="M300.36,273.92,238,211.58a129.26,129.26,0,0,0,26.44-79.34A131.42,131.42,0,0,0,133.88,0h-1.64A131.42,131.42,0,0,0,0,130.59v1.65A131.42,131.42,0,0,0,130.59,264.48h1.65A129.26,129.26,0,0,0,211.58,238l62.34,62.32ZM37.79,132.24A93.53,93.53,0,0,1,130.4,37.79h1.84A93.54,93.54,0,0,1,226.7,130.4v1.84a93.54,93.54,0,0,1-92.61,94.46h-1.85a93.53,93.53,0,0,1-94.45-92.61C37.78,133.47,37.78,132.86,37.79,132.24Z" />
+        </g>
+    </g>
+</svg>

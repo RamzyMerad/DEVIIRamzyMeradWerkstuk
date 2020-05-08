@@ -1,0 +1,10 @@
+@import url(//db.onlinewebfonts.com/c/c8e8fcd5d85d9b587022fe0a79809b73?family=Friz+Quadrata);
+
+* {
+    font-family: Friz Quadrata;
+}
+
+nav a {
+    font-weight: bold;
+    text-transform: uppercase;
+}

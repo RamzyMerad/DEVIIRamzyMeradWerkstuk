@@ -1,0 +1,49 @@
+nav {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("./../assets/Bannertft.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -50px;
+    animation: navAnimation 1s;
+}
+
+nav a {
+    text-decoration: none;
+    color: #D8B38C;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+}
+
+nav img {
+    width: 150px;
+}
+
+nav#navhome {
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: none;
+    animation: navAnimation 5s;
+
+
+}
+
+@keyframes navAnimation {
+
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}

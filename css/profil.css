@@ -1,0 +1,74 @@
+.profil_image img {
+    width: 60px;
+    object-fit: cover;
+}
+
+.profil_image {
+    border-radius: 100px;
+    width: 135px;
+    height: 135px;
+    background: url("../assets/pp.png");
+    background-size: cover;
+    border: 2px solid #D8B38C;
+
+}
+
+.profil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.profil_info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    color: #D8B38C;
+
+}
+
+.profil_info button {
+    background-color: #163D6B;
+    border: 1.5px solid #D8B38C;
+    padding: 10px 60px;
+    margin-top: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+#searchbar {
+    background-color: transparent;
+    border: none;
+    width: 95%;
+    color: white;
+    height: 100%;
+
+
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+.search img {
+    width: 18px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+}
+
+.searchcombine {
+    background-color: var(--darkblue);
+    border: 1.5px solid var(--gold);
+    border-radius: 9px;
+    padding: 2px 5px;
+    width: 450px;
+}

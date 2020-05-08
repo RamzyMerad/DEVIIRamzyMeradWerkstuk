@@ -1,0 +1,66 @@
+.championslayout {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 100vw;
+}
+
+.championslayout h2 {
+    text-align: center;
+    align-items: center;
+}
+
+.imgchampions {
+    display: flex;
+    justify-content: center;
+}
+
+.row1 img {
+    border: 3px solid gray;
+    margin: 5px 5px;
+
+}
+
+.row2 img {
+    border: 3px solid #228B22;
+    margin: 5px 5px;
+
+}
+
+.row3 img {
+    border: 3px solid #1E90FF;
+    margin: 5px 5px;
+
+}
+
+.row4 img {
+    border: 3px solid #8A2BE2;
+    margin: 5px 5px;
+
+}
+
+.row5 img {
+    border: 3px solid #F0E68C;
+    margin: 5px 5px;
+
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title img {
+    border: none;
+    width: 15px;
+    margin-left: 6px;
+}
+
+.championsbox {
+    margin: 2px 352px;
+    padding: 10px 5px;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid var(--gold);
+}

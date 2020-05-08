@@ -1,0 +1,114 @@
+.traits h2 {
+    color: white;
+}
+
+.traits {
+    padding: 10px 20px;
+    text-align: center;
+    width: 20%;
+    height: 300px;
+
+
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 60px 20px;
+    width: 100vw;
+}
+
+.builder {
+    width: 50%;
+    height: 300px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.buildcases {
+    margin: 50px 20px;
+}
+
+.cost {
+    color: white;
+    flex-direction: row;
+    display: flex;
+}
+
+.cost img {
+    width: 15px;
+}
+
+.namebuilder {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.namebuilder input {
+    width: 500px;
+    height: 27px;
+    color: white;
+    background-color: var(--blue);
+    text-align: center;
+    border: 3px solid var(--gold);
+}
+
+::placeholder {
+    color: white;
+    text-align: center;
+}
+
+.namebuilder button {
+    width: 100px;
+    height: 33px;
+    background-color: var(--gold);
+    border-radius: 0px 3px 3px 0px;
+    border: none;
+    color: white;
+
+
+}
+
+.buildcases {
+    display: grid;
+    grid-template-columns: repeat(5, 80px);
+    grid-template-rows: repeat(2, 80px);
+    row-gap: 25px;
+    column-gap: 25px;
+
+}
+
+.buildcases div {
+    width: 80px;
+    height: 80px;
+    border: 2px solid var(--gold);
+    border-radius: 20%;
+}
+
+
+
+
+
+
+.savedbuilds {
+    width: 20%;
+    height: 350px;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    border: 3px solid var(--gold);
+}
+
+.savedbuilds h3 {
+    margin: 15px;
+}
+
+.buildcases div {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
