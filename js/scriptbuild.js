@@ -68,7 +68,7 @@ savebutton.addEventListener("click", function () {
 
 function vieuwBuild(element) {
     let found = databaseBuild.find(build => build.id == element);
-    let updatebutton = document.getElementById("updatebutton");
+
     build = found;
     console.log(build);
     case1.style.backgroundImage = `url("../assets/dragon/champions/${found.championsarray[0]}.png")`;
@@ -92,13 +92,11 @@ function vieuwBuild(element) {
     case10.style.backgroundImage = `url("../assets/dragon/champions/${found.championsarray[9]}.png")`;
     case10.dataset.champion = found.championsarray[9];
     buildname.value = found.name;
-    updatebutton.dataset.champion = found.id;
+
 
 }
 
-updatebutton.addEventListener("click", function () {
 
-})
 
 
 
