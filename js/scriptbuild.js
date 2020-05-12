@@ -35,7 +35,7 @@ async function renderBuilds() {
           `;
             document.getElementById('savebuilds').innerHTML += htmlString;
             let buildsOP = document.querySelectorAll(".build")
-            console.log("quelque chose");
+
             buildsOP.forEach(element => {
                 element.addEventListener("click", function () {
                     vieuwBuild(element.id);
@@ -59,9 +59,9 @@ let savebutton = document.getElementById("savebutton");
 savebutton.addEventListener("click", function () {
     console.log("click");
     buildname = document.getElementById("buildname");
-    buildname.value = build.name;
+    build.name = buildname.value;
     addBuild(build);
-    document.getElementById('savebuilds').innerHTML = "";
+    document.getElementById('savebuilds').innerHTML = "<h2>Saved builds:</h2>";
 })
 
 
