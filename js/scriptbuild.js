@@ -61,7 +61,7 @@ savebutton.addEventListener("click", function () {
     buildname = document.getElementById("buildname");
     build.name = buildname.value;
     addBuild(build);
-    document.getElementById('savebuilds').innerHTML = "<h2>Saved builds:</h2>";
+    document.getElementById('savebuilds').innerHTML = "<h2> Saved builds:</h2>";
 })
 
 
